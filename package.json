@@ -1,0 +1,22 @@
+{
+  "name": "speech_inverter",
+  "version": "1.0.0",
+  "description": "A fun project I wrote to learn node and just play around.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brandoncc/speech_inverter"
+  },
+  "author": "Brandon Conway",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brandoncc/speech_inverter/issues"
+  },
+  "homepage": "https://github.com/brandoncc/speech_inverter",
+  "dependencies": {
+    "express": "^4.12.4"
+  }
+}
