@@ -90,4 +90,9 @@ $(function() {
 
     reinvertString();
   });
+
+  $('.reset').on('click', function(e) {
+    $('form').get(0).reset();
+    $('#output').text('');
+  });
 });
