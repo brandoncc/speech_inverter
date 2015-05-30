@@ -75,6 +75,9 @@ $(function() {
     $output.text(newString);
   }
 
+  function processInput(e) {
+
+  }
   $('form input').on('keyup', function(e) {
     var inverseChar = inverseCharacter(e.which, !e.shiftKey),
         $output = $('#output');
@@ -88,6 +91,10 @@ $(function() {
       return;
     }
 
+    reinvertString();
+  });
+
+  $('form input').on('keyup', function(e) {
     reinvertString();
   });
 
