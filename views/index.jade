@@ -2,4 +2,8 @@ extends layout
 
 block content
   h1= title
-  p Welcome to #{title}
+  form
+    input(type="text")
+    button(class='reset' style='margin-left: 10px;') Reset
+  p
+    span(id='output')
